@@ -1,6 +1,6 @@
 {
   "name": "random-simple",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Postgres simple wrapper",
   "main": "lib/index.js",
   "homepage": "https://github.com/stasandk/random-simple#readme",
