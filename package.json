@@ -1,37 +1,31 @@
 {
-  "name": "random-simple",
-  "version": "2.0.0",
-  "description": "Real random numbers/letters/strings generator",
-  "homepage": "https://github.com/stasandk/random-simple#readme",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "bin": {
-    "random": "bin/random"
-  },
-  "files": [
-    "bin",
-    "lib"
-  ],
-  "author": "Stanislau Karaban",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stasandk/random-simple.git"
-  },
-  "keywords": [
-    "random",
-    "real",
-    "simple",
-    "numbers",
-    "letters",
-    "string"
-  ],
-  "scripts": {
-    "prepare": "rm -rf ./lib && tsc",
-    "refresh": "rm -rf ./node_modules ./package-lock.json && npm install"
-  },
-  "devDependencies": {
-    "@types/node": "^14.14.2",
-    "typescript": "^4.0.3"
-  }
+	"name": "@doubleedesign/random-simple",
+	"version": "2.0.1",
+	"description": "Random numbers/letters/strings generator",
+	"homepage": "https://github.com/doubleedesign/random-simple#readme",
+	"type": "module",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"files": ["lib"],
+	"author": "Leesa Ward",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/doubleedesign/random-simple.git"
+	},
+	"keywords": [
+		"random",
+		"simple",
+		"numbers",
+		"letters",
+		"string"
+	],
+	"scripts": {
+		"prepare": "rm -rf ./lib && tsc",
+		"refresh": "rm -rf ./node_modules ./package-lock.json && npm install"
+	},
+	"devDependencies": {
+		"@types/node": "^20.4.1",
+		"typescript": "^5.1.6"
+	}
 }

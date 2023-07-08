@@ -5,19 +5,15 @@ Simple random numbers|letters|string generator
 ## Install
 
 ```
-$ npm install random-simple
+$ npm install @doubleedesign/random-simple
 ```
 
 ## Usage
+
 ```js
-const rndm = require('random-simple')
+import { rndm } from "@doubleedesign/random-simple";
 
-// Generato random numbers
-const randomNumbers = rndm({ length: 4, type: 'numbers' })
-const randomLetters = rndm({ length: 6, type: 'letters' })
-const randomString = rndm({ length: 10, type: 'string' })
-
-// By default generate string
-const randomString = rndm({ length: 256 })
-
+const randomNumbers = rndm.numbers(4);
+const randomLetters = rndm.letters(6);
+const randomString = rndm.strings(10);
 ```
